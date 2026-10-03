@@ -260,8 +260,8 @@
     <entry producer="chain2" in="00:00:00.000" out="00:20:47.267"/>
     <entry producer="chain3" in="00:00:00.000" out="00:16:55.783"/>
   </playlist>
-  <producer id="black" in="00:00:00.000" out="00:02:56.267">
-    <property name="length">00:02:56.283</property>
+  <producer id="black" in="00:00:00.000" out="00:02:22.850">
+    <property name="length">00:02:22.867</property>
     <property name="eof">pause</property>
     <property name="resource">0</property>
     <property name="aspect_ratio">1</property>
@@ -270,7 +270,7 @@
     <property name="set.test_audio">0</property>
   </producer>
   <playlist id="background">
-    <entry producer="black" in="00:00:00.000" out="00:02:56.267"/>
+    <entry producer="black" in="00:00:00.000" out="00:02:22.850"/>
   </playlist>
   <chain id="chain8" out="00:16:55.783">
     <property name="length">00:16:55.800</property>
@@ -815,9 +815,9 @@
       <property name="duck_fade_in">1500</property>
       <property name="duck_fade_out">250</property>
       <property name="prefix"></property>
+      <property name="mlt_service">mix</property>
       <property name="start">-2</property>
       <property name="accepts_blanks">1</property>
-      <property name="mlt_service">mix</property>
     </transition>
   </tractor>
   <chain id="chain10" out="00:16:55.783">
@@ -1015,15 +1015,15 @@
       <property name="duck_fade_in">1500</property>
       <property name="duck_fade_out">250</property>
       <property name="prefix"></property>
+      <property name="mlt_service">mix</property>
       <property name="start">-2</property>
       <property name="accepts_blanks">1</property>
-      <property name="mlt_service">mix</property>
     </transition>
   </tractor>
   <playlist id="playlist0">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V1</property>
-    <blank length="00:00:34.950"/>
+    <blank length="00:00:01.533"/>
     <entry producer="chain8" in="00:10:48.500" out="00:10:57.517"/>
     <blank length="00:00:00.617"/>
     <entry producer="chain4" in="00:12:19.500" out="00:12:27.183"/>
@@ -1035,7 +1035,7 @@
     <entry producer="chain10" in="00:14:32.883" out="00:15:00.483"/>
     <entry producer="tractor1" in="00:00:00.000" out="00:00:01.900"/>
     <entry producer="chain11" in="00:16:01.567" out="00:16:11.833"/>
-    <filter id="filter16" out="00:02:56.267">
+    <filter id="filter16" out="00:02:22.850">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">-48.3</property>
@@ -1597,9 +1597,9 @@
       <property name="duck_fade_in">1500</property>
       <property name="duck_fade_out">250</property>
       <property name="prefix"></property>
+      <property name="mlt_service">mix</property>
       <property name="start">-2</property>
       <property name="accepts_blanks">1</property>
-      <property name="mlt_service">mix</property>
     </transition>
   </tractor>
   <chain id="chain18" out="00:20:47.267">
@@ -1710,9 +1710,9 @@
       <property name="duck_fade_in">1500</property>
       <property name="duck_fade_out">250</property>
       <property name="prefix"></property>
+      <property name="mlt_service">mix</property>
       <property name="start">-2</property>
       <property name="accepts_blanks">1</property>
-      <property name="mlt_service">mix</property>
     </transition>
   </tractor>
   <chain id="chain19" out="00:20:47.267">
@@ -1823,15 +1823,15 @@
       <property name="duck_fade_in">1500</property>
       <property name="duck_fade_out">250</property>
       <property name="prefix"></property>
+      <property name="mlt_service">mix</property>
       <property name="start">-2</property>
       <property name="accepts_blanks">1</property>
-      <property name="mlt_service">mix</property>
     </transition>
   </tractor>
   <playlist id="playlist1">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V2</property>
-    <blank length="00:00:34.950"/>
+    <blank length="00:00:01.533"/>
     <entry producer="chain12" in="00:10:28.233" out="00:10:37.250"/>
     <blank length="00:00:00.617"/>
     <entry producer="chain13" in="00:11:59.233" out="00:12:06.917"/>
@@ -1844,7 +1844,7 @@
     <entry producer="chain18" in="00:14:13.400" out="00:14:40.217"/>
     <entry producer="tractor4" in="00:00:00.000" out="00:00:01.383"/>
     <entry producer="chain19" in="00:15:40.817" out="00:15:51.600"/>
-    <filter id="filter34" out="00:02:56.267">
+    <filter id="filter34" out="00:02:22.850">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">1.7</property>
@@ -2166,7 +2166,7 @@
   <playlist id="playlist2">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V3</property>
-    <blank length="00:00:34.950"/>
+    <blank length="00:00:01.533"/>
     <entry producer="chain20" in="00:11:25.767" out="00:11:26.683"/>
     <blank length="00:00:38.150"/>
     <entry producer="chain21" in="00:12:44.933" out="00:12:49.317"/>
@@ -2302,7 +2302,6 @@
   <playlist id="playlist3">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V4</property>
-    <blank length="00:00:33.417"/>
     <entry producer="producer0" in="00:00:00.000" out="00:00:02.017"/>
     <blank length="00:00:07.883"/>
     <entry producer="producer1" in="00:00:00.000" out="00:00:02.017"/>
@@ -2314,7 +2313,7 @@
     <entry producer="producer4" in="00:00:00.000" out="00:00:02.017"/>
     <blank length="00:00:10.283"/>
     <entry producer="producer5" in="00:00:00.000" out="00:00:02.017"/>
-    <filter id="filter37" out="00:02:56.267">
+    <filter id="filter37" out="00:02:22.850">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">2.9</property>
@@ -2346,7 +2345,7 @@
       <property name="shotcut:hiddenPosition">post</property>
     </filter>
   </playlist>
-  <tractor id="tractor5" title="Shotcut version 26.9.27" in="00:00:00.000" out="00:02:56.267">
+  <tractor id="tractor5" title="Shotcut version 26.9.27" in="00:00:00.000" out="00:02:22.850">
     <property name="shotcut:colorTransfer">sdr</property>
     <property name="shotcut">1</property>
     <property name="shotcut:projectAudioChannels">2</property>
