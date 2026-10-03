@@ -12,7 +12,7 @@ fi
 
 ### BEGIN BACKUP ###
 #PROJECT_ROOT="/Users/adrian/Documents/PROJECTS/Coursework/Analyse/aSS1"
-ABLETON_SET="$PROJECT_ROOT/live/AnalyseSS1 Project/AnalyseSS1.als"
+ABLETON_SET="$PROJECT_ROOT/live/demo Project/demo.als"
 ### END BACKUP ###
 
 SIBELIUS_SCORE="$PROJECT_ROOT/scores/demo2.sib"
