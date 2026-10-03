@@ -27,3 +27,34 @@ live/**/*.peak
 # !live/**/
 # !live/**/*.als
 # <<< Ableton Live <<<
+
+# >>> Shotcut video ignores >>>
+# Video media only, recursively within /shotcut/; .mlt files remain trackable.
+/shotcut/**/*.3[gG]2
+/shotcut/**/*.3[gG][pP]
+/shotcut/**/*.[aA][sS][fF]
+/shotcut/**/*.[aA][vV][iI]
+/shotcut/**/*.[dD][vV]
+/shotcut/**/*.[fF]4[vV]
+/shotcut/**/*.[fF][lL][vV]
+/shotcut/**/*.[mM]2[tT]
+/shotcut/**/*.[mM]2[tT][sS]
+/shotcut/**/*.[mM]2[vV]
+/shotcut/**/*.[mM]4[vV]
+/shotcut/**/*.[mM][kK][vV]
+/shotcut/**/*.[mM][oO][vV]
+/shotcut/**/*.[mM][pP]4
+/shotcut/**/*.[mM][pP][eE]
+/shotcut/**/*.[mM][pP][eE][gG]
+/shotcut/**/*.[mM][pP][gG]
+/shotcut/**/*.[mM][tT][sS]
+/shotcut/**/*.[mM][xX][fF]
+/shotcut/**/*.[oO][gG][vV]
+/shotcut/**/*.[qQ][tT]
+/shotcut/**/*.[rR][mM]
+/shotcut/**/*.[rR][mM][vV][bB]
+/shotcut/**/*.[tT][sS]
+/shotcut/**/*.[vV][oO][bB]
+/shotcut/**/*.[wW][eE][bB][mM]
+/shotcut/**/*.[wW][mM][vV]
+# <<< Shotcut video ignores <<<
