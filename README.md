@@ -1,5 +1,7 @@
 # PianoRules-demo
 
+Link to [PianoRules online app](https://github.com/MUK-Labs/PianoRules).
+
 ---
 
 ## Online Folder
